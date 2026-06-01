@@ -1,34 +1,4 @@
-# Nutanix TME Repository Template
-
-This repository must be used when creating new GitHub repositories.  It contains a number of enhancements and approved legal disclaimers that must be published with every code sample.
-
------ DELETE EVERYTHING ABOVE HERE -----
-
-# New Repository Name
-
-Introduction here.
-
-# Requirements
-
-Requirements here:
-
-- Operating system and version
-- Language dependencies
-
-# Intended Audience
-
-This code repository is aimed at this with <x> knowledge about <y>.
-
-# Usage
-
-To use this code sample/script, follow the instructions below.
-
-<INSTRUCTIONS FOR PYTHON>
-<INSTRUCTIONS FOR ... ETC>
-
-# Screenshots
-
-<INCLUDE SUPPORTING SCREENSHOTS, INCLUDE THEM HERE IF THEY ARE NOT ALREADY IN THE MAIN README CONTENT>
+# Knative Serverless Demo
 
 # Support and Disclaimer
 
