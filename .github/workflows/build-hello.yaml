@@ -1,0 +1,23 @@
+name: Build Hello Image
+
+on:
+    push:
+        branches: [main]
+        paths:
+            - "hello/**"
+            - ".github/workflows/**"
+    workflow_dispatch:
+
+permissions:
+    contents: read
+    packages: write
+
+jobs:
+    build:
+        uses: ./.github/workflows/reusable-build-image.yaml
+        with:
+            image_name: ghcr.io/nutanixdev/knative-serverless-demo/hello
+            context: ./hello
+            dockerfile: Dockerfile
+            platforms: linux/amd64
+            push_latest: true
