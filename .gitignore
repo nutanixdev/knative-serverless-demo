@@ -20,4 +20,8 @@ build/
 
 *.log
 
+kubeconfigs/
+*.conf
+*.kubeconfig
 .env
+.env.*
